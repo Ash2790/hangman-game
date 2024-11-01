@@ -11,9 +11,6 @@ Welcome to the Hangman Game! This is a classic word-guessing game built with Rea
 - You have **11 incorrect guesses** allowed before you lose the game.
 - If you reveal all letters in the word before reaching 11 incorrect guesses, you win!
 
-## Screenshots
-![Game Play Screenshot](./screenshots/game-play.png)
-
 ## Installation and Setup
 
 To get the Hangman Game running locally on your machine, follow these steps.
