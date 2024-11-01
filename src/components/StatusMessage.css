@@ -1,0 +1,64 @@
+/* src/components/StatusMessage.css */
+
+/* 
+  Main container styling for the status message section. 
+  Centers the text and applies margin and font properties for readability.
+*/
+.status-message {
+    margin-top: 20px;        /* Adds space above the message area */
+    text-align: center;      /* Centers text horizontally */
+    font-size: 20px;         /* Sets a readable font size */
+    font-weight: bold;       /* Makes the message text bold for emphasis */
+    color: #333;             /* Dark gray color for default text */
+  }
+  
+  /* 
+    General styling for any <p> elements in the status message.
+    Adds padding and rounded corners to make the message stand out.
+  */
+  .status-message p {
+    padding: 10px;           /* Adds space inside the message box */
+    border-radius: 5px;      /* Softens edges of the message box */
+    font-size: 1.2em;        /* Slightly larger font size for emphasis */
+  }
+  
+  /* 
+    Styles the first <p> element (win message).
+    Uses a green color to clearly indicate success to the player.
+  */
+  .status-message p:first-of-type {
+    color: #28a745;          /* Green color for success messages */
+  }
+  
+  /* 
+    Styles the second <p> element (lose message).
+    Uses a red color to clearly indicate a loss.
+  */
+  .status-message p:nth-of-type(2) {
+    color: #dc3545;          /* Red color for loss messages */
+  }
+  
+  /* 
+    Styling for the restart button. 
+    Creates a visually distinct button with hover effects for interactivity.
+  */
+  .status-message button {
+    margin-top: 10px;        /* Adds space above the button */
+    padding: 10px 20px;      /* Adds padding for a larger, clickable button area */
+    font-size: 16px;         /* Sets a readable font size for button text */
+    color: #fff;             /* White text color for contrast against blue background */
+    background-color: #007bff; /* Blue background for default button state */
+    border: none;            /* Removes default border */
+    border-radius: 5px;      /* Softens button edges */
+    cursor: pointer;         /* Changes cursor to pointer to indicate clickability */
+    transition: background-color 0.3s; /* Smooth transition for background-color change */
+  }
+  
+  /* 
+    Hover effect for the restart button. 
+    Darkens the blue background slightly to give feedback on hover.
+  */
+  .status-message button:hover {
+    background-color: #0056b3; /* Darker shade of blue for hover state */
+  }
+  

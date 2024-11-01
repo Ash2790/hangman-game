@@ -1,0 +1,13 @@
+/* src/components/LetterButton.css */
+.letter-button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .letter-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
